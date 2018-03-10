@@ -1,6 +1,6 @@
 Offlien GUI of Farmbot for Development
 ==========================
-![GUI of gui_main.py](Introduction.png)  
+![GUI of gui_main.py](./Introduction.png)  
 ![GUI of gui_main.py](./gui_function.png)
 The Python code with a user interface is porvided with following functions:
 1. 3-axis stepper-motor control
@@ -12,7 +12,7 @@ The Python code with a user interface is porvided with following functions:
 7. Camera Setting (Camera ID)
 8. Peripheral Setting (PIN Number)
 
-![GUI of gui_main.py](./Manual/gui_1.png)
+![GUI of gui_main.py](./gui_1.png)
 
 > * The communication between Arduino and computer is automatically built when the program is opened. If the connection is failed, it can be re-built again by clicking the 'Connect to Arduino' button in menubar  
 > * The communication between Camera and computer is automatically built when the program is opened. If the connection is failed, it can be re-built again by clicking the 'Connect to Camera' button in menubar  
@@ -20,7 +20,7 @@ The Python code with a user interface is porvided with following functions:
 
 Move Control 
 -----------------------
-![GUI of gui_main.py](./Manual/gui_tabpage_Control.png)  
+![GUI of gui_main.py](./gui_tabpage_Control.png)  
 <Hot Key>  
 move amount(100, 500, 1k, 10k, 100k):  F1~F5  
 Up, Down, Left, Right: ↑, ↓, ←, →  
@@ -28,19 +28,19 @@ Z-Up, Z-Down: ctrl+↑, ctrl+↓
   
 Motor Setting 
 -----------------------
-![GUI of gui_main.py](./Manual/gui_MotorSetting.png)  
+![GUI of gui_main.py](./gui_MotorSetting.png)  
 
 Camera Setting
 -----------------------
-![GUI of gui_main.py](./Manual/gui_CamSetting.png)  
+![GUI of gui_main.py](./gui_CamSetting.png)  
 
 Peripheral Setting
 -----------------------
-![GUI of gui_main.py](./Manual/gui_Peripherals.png)  
+![GUI of gui_main.py](./gui_Peripherals.png)  
 
 Load & Run Script
 -----------------------
-![GUI of gui_tabpage_Loadscript.py](./Manual/gui_tabpage_Loadscript.png)  
+![GUI of gui_tabpage_Loadscript.py](./gui_tabpage_Loadscript.png)  
 The commands for arduino could be sent by FBTUG_Commander. However not only arduino code but aslo other functions, like grabbing image or making schedule in the future, could be applied here.  
 
 ### Code sent to RPI (defined by FBTUG)
@@ -121,7 +121,7 @@ P.S. The oservation speed could be changed by setting MOVEMENT_MAX_SPD or MOVEME
 
 Image Processing 
 -----------------------
-![GUI of gui_main.py](./Manual/gui_2.png)
+![GUI of gui_main.py](./gui_2.png)
 The functions to detect GREEN Plant in the image. Three Plant Indexes, LAB, ExG and NDI, are provided. Threshold method could be changed here too. 
   
 command line for start FBTUG_Commander: 
