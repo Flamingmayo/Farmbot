@@ -1,4 +1,4 @@
-Offlien GUI of Farmbot for Development
+Offline GUI of Farmbot for Development
 ==========================
 ![GUI of gui_main.py](./Introduction.png)  
 ![GUI of gui_main.py](./gui_function.png)
